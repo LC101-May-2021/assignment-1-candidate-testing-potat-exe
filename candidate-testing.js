@@ -78,7 +78,7 @@ function gradeQuiz(candidateAnswers) {
     console.log(">>> Status: FAILED <<<")
   }
   
-    
+    grade = grade/correctAnswers.length*100
   return grade;
   
   
